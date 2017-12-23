@@ -6,7 +6,7 @@
 #in our case, b is the origin, or (0,0,0)
 
 i = open("Advent11input.txt", "r")
-steps = i.read().split(",")
+steps = i.read().strip().split(",")
 
 x = 0
 y = 0
@@ -32,4 +32,4 @@ for step in steps:
         y += 1
         x -= 1
 
-print ((abs(x) + abs(y) + abs(z))/2)
+print ((abs(x) + abs(y) + abs(z))/ 2 )
