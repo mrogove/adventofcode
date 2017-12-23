@@ -32,4 +32,4 @@ for step in steps:
         y += 1
         x -= 1
 
-print ((abs(x) + abs(y) + abs(z))/ 2 )
+print (int((abs(x) + abs(y) + abs(z))/ 2)) #won't accept float.
