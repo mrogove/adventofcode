@@ -12,6 +12,8 @@ x = 0
 y = 0
 z = 0
 
+distances = [] # list for tracking max distances in part 2
+
 for step in steps:
     if step == "n":
         x += 1
@@ -31,5 +33,7 @@ for step in steps:
     elif step == "sw":
         y += 1
         x -= 1
+    distances.append(int((abs(x) + abs(y) + abs(z))/ 2))
 
 print (int((abs(x) + abs(y) + abs(z))/ 2)) #won't accept float.
+print (max(distances))
