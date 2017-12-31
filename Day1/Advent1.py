@@ -1,4 +1,4 @@
-with open('C:/Users/mrogove/AdventOfCode/Advent1input.txt') as f:
+with open('Advent1input.txt') as f:
     lines = f.read()
 lines.replace(" ", "")
 
