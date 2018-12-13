@@ -1,5 +1,5 @@
-# Advent of Code 2017
-This repo is for my attempts at the 2017 Advent of Code event.
+# Advent of Code
+This repo is for my attempts at the Advent of Code events.
 
 The Advent gives a coding challenge, problem input, and then requires a simple int/str response to "clear" the challenge.
 
