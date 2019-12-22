@@ -15,11 +15,11 @@ def total_fuel(mass):
   return total_mass
 
 def part_one():
-  with open(r"../Day1/input.txt") as file:
+  with open(r"../Day01/input.txt") as file:
     return sum(fuel(int(i)) for i in file.readlines())
 
 def part_two():
-  with open(r"../Day1/input.txt") as file:
+  with open(r"../Day01/input.txt") as file:
     return sum(total_fuel(int(i)) for i in file)
 
 
